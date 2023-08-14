@@ -1,0 +1,100 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "firstName": "Aditya",
+      "lastName": "Allam",
+      "leaveBalance": "123",
+      "employmentHistory": "GVP",
+      "reportsTo": "Allan",
+      "salary": "123000"
+    },
+    {
+      "id": 2,
+      "firstName": "Kamlesh",
+      "lastName": "Gehlot",
+      "leaveBalance": "133",
+      "employmentHistory": "Cognizant",
+      "reportsTo": "Aditya",
+      "salary": "4555555"
+    },
+    {
+      "id": 3,
+      "firstName": "Bumble",
+      "lastName": "Bee",
+      "leaveBalance": "12",
+      "employmentHistory": "GVP",
+      "reportsTo": "Kamlesh",
+      "salary": "150000"
+    },
+    {
+      "id": 4,
+      "firstName": "Satya",
+      "lastName": "Pramanik",
+      "leaveBalance": "123",
+      "employmentHistory": "KVS",
+      "reportsTo": "Aditya",
+      "salary": "150000"
+    },
+    {
+      "id": 5,
+      "firstName": "Adarsh",
+      "lastName": "Allam",
+      "leaveBalance": "11",
+      "employmentHistory": "NRIMS",
+      "reportsTo": "Aditya",
+      "salary": "1000000"
+    },
+    {
+      "id": 6,
+      "firstName": "Kuntal",
+      "lastName": "Das",
+      "leaveBalance": "12",
+      "employmentHistory": "CTS",
+      "reportsTo": "Aditya",
+      "salary": "150000"
+    }
+  ],
+  "signupUsers": [
+    {
+      "username": "aditya",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "username": "kamlesh",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "username": "bumble",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "username": "satya",
+      "password": "123456",
+      "id": 4
+    },
+    {
+      "username": "adarsh",
+      "password": "123456",
+      "id": 5
+    },
+    {
+      "username": "kuntal",
+      "password": "123456",
+      "id": 6
+    }
+  ],
+  "signupAdmin": [
+    {
+      "username": "admin",
+      "password": "123456",
+      "id": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

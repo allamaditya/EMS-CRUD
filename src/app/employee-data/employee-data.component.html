@@ -1,0 +1,38 @@
+<nav class="navbar" style="background-color: darkblue;">
+    <div class="container-fluid">
+        <h1 style="color:antiquewhite;">Employee View</h1>
+        <div class="d-flex">
+            <button routerLink="/home"type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-danger">LOGOUT</button>
+        </div>
+    </div>
+</nav>
+
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <th scope="col">Employee ID</th>
+            <th scope="col">First Name</th>
+            <th scope="col">Last Name</th>
+            <th scope="col">Leave Balance</th>
+            <th scope="col">Employment History</th>
+            <th scope="col">Reports to</th>
+            <th scope="col">Salary</th>
+    
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let row of employeeData">
+           
+            <td *ngIf="(row.firstName).toLowerCase()==user.toLowerCase()">{{row.id}}</td>
+            <td *ngIf="(row.firstName).toLowerCase()==user.toLowerCase()">{{row.firstName}}</td>
+            <td *ngIf="(row.firstName).toLowerCase()==user.toLowerCase()">{{row.lastName}}</td>
+            <td *ngIf="(row.firstName).toLowerCase()==user.toLowerCase()">{{row.leaveBalance}}</td>
+            <td *ngIf="(row.firstName).toLowerCase()==user.toLowerCase()">{{row.employmentHistory}}</td>
+            <td *ngIf="(row.firstName).toLowerCase()==user.toLowerCase()">{{row.reportsTo}}</td>
+            <td *ngIf="(row.firstName).toLowerCase()==user.toLowerCase()">{{row.salary}}</td>
+      
+            
+        </tr> 
+    </tbody>
+</table>
+
